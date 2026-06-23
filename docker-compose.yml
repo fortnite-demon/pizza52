@@ -57,7 +57,7 @@ services:
       retries: 3
       timeout: 10s
       interval: 30s
-      start_interval: 10s
+      start_period: 10s
 
   nginx-load-balancer:
     image: nginx:1.27-alpine
